@@ -38,3 +38,30 @@ ul{
     display: inline-block;
     margin-left: 50px;
 }
+
+nav{
+    border: 2px solid black
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    color: blue;
+    margin: auto
+}
+
+nav a{
+    background-color: lightgrey;
+    /* padding: 5px;
+    margin: 20px; */
+}
+
+#skip{
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus{
+    left: 50px;
+    text-transform: uppercase;
+}
